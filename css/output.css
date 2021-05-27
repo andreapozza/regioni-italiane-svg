@@ -1,0 +1,110 @@
+/* SVG REGIONI */
+i[class*=svg-regione-] {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.svg-regione-abruzzo {
+  background-image: url("../svg/abruzzo.svg");
+}
+
+.svg-regione-basilicata {
+  background-image: url("../svg/basilicata.svg");
+}
+
+.svg-regione-calabria {
+  background-image: url("../svg/calabria.svg");
+}
+
+.svg-regione-campania {
+  background-image: url("../svg/campania.svg");
+}
+
+.svg-regione-emilia-romagna {
+  background-image: url("../svg/emilia-romagna.svg");
+}
+
+.svg-regione-friuli-venezia-giulia {
+  background-image: url("../svg/friuli-venezia-giulia.svg");
+}
+
+.svg-regione-lazio {
+  background-image: url("../svg/lazio.svg");
+}
+
+.svg-regione-liguria {
+  background-image: url("../svg/liguria.svg");
+}
+
+.svg-regione-lombardia {
+  background-image: url("../svg/lombardia.svg");
+}
+
+.svg-regione-marche {
+  background-image: url("../svg/marche.svg");
+}
+
+.svg-regione-molise {
+  background-image: url("../svg/molise.svg");
+}
+
+.svg-regione-piemonte {
+  background-image: url("../svg/piemonte.svg");
+}
+
+.svg-regione-puglia {
+  background-image: url("../svg/puglia.svg");
+}
+
+.svg-regione-sardegna {
+  background-image: url("../svg/sardegna.svg");
+}
+
+.svg-regione-sicilia {
+  background-image: url("../svg/sicilia.svg");
+}
+
+.svg-regione-toscana {
+  background-image: url("../svg/toscana.svg");
+}
+
+.svg-regione-trentino-alto-adige {
+  background-image: url("../svg/trentino-alto-adige.svg");
+}
+
+.svg-regione-umbria {
+  background-image: url("../svg/umbria.svg");
+}
+
+.svg-regione-valle-d-aosta {
+  background-image: url("../svg/valle-d-aosta.svg");
+}
+
+.svg-regione-veneto {
+  background-image: url("../svg/veneto.svg");
+}
+
+body {
+  font-family: sans-serif;
+}
+
+tr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+tr td {
+  text-align: center;
+  flex-basis: 15%;
+  flex-grow: 1;
+  padding: 20px;
+}
+tr td i[class*=svg-regione-] {
+  margin: 0 auto 20px;
+}
+
+/*# sourceMappingURL=output.css.map */

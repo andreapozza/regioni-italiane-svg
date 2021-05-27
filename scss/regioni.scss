@@ -1,0 +1,37 @@
+/* SVG REGIONI */
+i[class*="svg-regione-"] {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+$regioni: abruzzo,
+        basilicata,
+        calabria,
+        campania,
+        emilia-romagna,
+        friuli-venezia-giulia,
+        lazio,
+        liguria,
+        lombardia,
+        marche,
+        molise,
+        piemonte,
+        puglia,
+        sardegna,
+        sicilia,
+        toscana,
+        trentino-alto-adige,
+        umbria,
+        valle-d-aosta,
+        veneto;
+
+@each $regione in $regioni {
+    $url: '../svg/#{$regione}.svg';
+    .svg-regione-#{$regione} {
+    background-image: url($url);
+    }
+}

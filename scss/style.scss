@@ -1,0 +1,19 @@
+@use 'regioni';
+
+body {
+    font-family: sans-serif;
+}
+tr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    td {
+        text-align: center;
+        flex-basis: 15%;
+        flex-grow: 1;
+        padding: 20px;
+        i[class*="svg-regione-"]{
+            margin: 0 auto 20px;
+        }
+    }
+}
